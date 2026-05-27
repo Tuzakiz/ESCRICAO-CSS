@@ -1,0 +1,29 @@
+        body{
+            background-color: blue;
+        }
+        .wa {            
+            border: 1px solid black;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .padding{
+        background-color: rgb(255, 255, 255);
+        padding: 10%;
+        box-shadow: 0 0 10px rgba(131, 113, 113, 0.548);
+        width: 5%;
+        justify-content: center;
+        align-items: center;
+        height: 50%;
+        }
+        .bord{
+        border: 1px white;
+        border-radius: 10%;
+        }
+        .div {
+            display: flex;
+        }
+        .text {
+            font-family: Arial, bold;
+            width: 20%;
+            height: 20%;
+        }
