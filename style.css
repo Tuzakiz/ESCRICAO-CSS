@@ -1,5 +1,11 @@
-        body{
-            background-color: blue;
+body{
+            background-color: rgb(0, 92, 170); 
+            display: flex;       
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: 0;
+            min-height: 105vh;
         }
         .wa {            
             border: 1px solid black;
@@ -8,16 +14,15 @@
         }
         .padding{
         background-color: rgb(255, 255, 255);
-        padding: 10%;
-        box-shadow: 0 0 10px rgba(131, 113, 113, 0.548);
-        width: 5%;
-        justify-content: center;
-        align-items: center;
-        height: 50%;
+        padding: 25px;
+        box-shadow: 10px rgba(255, 255, 255, 0.829);
+        padding-bottom: 10%;
         }
         .bord{
         border: 1px white;
-        border-radius: 10%;
+        border-radius: 35px;
+        border-bottom-color: black;
+        box-shadow: rgb(255, 255, 255);
         }
         .div {
             display: flex;
@@ -26,4 +31,51 @@
             font-family: Arial, bold;
             width: 20%;
             height: 20%;
+        }
+
+        .marg{
+            margin: 5px;
+        }
+        .tocenter{
+            display: flex;       
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            margin: 10px;
+        }
+        .divsize{
+        width: 500px; 
+        height: 650px;
+        }
+        .titler{
+            font-family: sans-serif;
+            font-weight: 900;
+            font-size: 1.4rem;
+            color: rgb(0, 92, 170);
+            text-decoration: underline;
+
+        }
+
+        .labs {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+            font-size: 0.6em;
+            letter-spacing: 1px;
+        }
+        .marcador{
+         background-color: rgb(0, 92, 170);
+         padding: 0 4px;
+         color: rgb(255, 255, 255);
+         border-radius: 2px;
+        }
+
+        .Mmarg{
+            margin: 30px;
+        }
+
+        .divsize2{
+        width: 550px; 
+        height: 600px;
+        border: 1px black;
+        border-color: black;
         }
